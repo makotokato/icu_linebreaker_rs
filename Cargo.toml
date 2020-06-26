@@ -1,0 +1,12 @@
+[package]
+name = "icu_line_breaker_rs"
+description = "Implement UAX#14 using ICU (for benchmark)"
+version = "0.1.0"
+authors = ["Makoto Kato <m_kato@ga2.so-net.ne.jp>"]
+edition = "2018"
+license = "Apache-2.0 OR MIT"
+keywords = ["unicode"]
+categories = ["text-processing"]
+
+[profile.release]
+lto = true
